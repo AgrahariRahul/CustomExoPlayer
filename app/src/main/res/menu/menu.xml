@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+
+        <item
+            android:id="@+id/defaultPlay"
+            android:checkable="true"
+            android:title="Default"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/playwithads"
+            android:checkable="true"
+            android:title="Play With Ads"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/playinlooping"
+            android:checkable="true"
+            android:title="Loop"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/playinSequentially"
+            android:checkable="true"
+            android:title="Loop In All"
+            app:showAsAction="collapseActionView" />
+
+    </group>
+
+
+</menu>

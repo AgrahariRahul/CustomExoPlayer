@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CustomExoPlayerSample</string>
+
+    <string-array name="ads_play">
+        <item>https://mediarobotvideo.s3.amazonaws.com/info_AdvertisingVideos.mp4</item>
+        <item>http://ak7.picdn.net/shutterstock/videos/4501577/preview/stock-footage-billboard-poster-advertising-green-screen-wall-for-copy-space-advertising-man-erects-billboard-pa.mp4</item>
+        <item>http://ak1.picdn.net/shutterstock/videos/3793661/preview/stock-footage-brand-word-cloud-animation.mp4</item>
+        <item>http://ak7.picdn.net/shutterstock/videos/5337017/preview/stock-footage-caucasian-male-golf-professional-using-driver-to-tee-off-on-fairway-at-luxury-golf-resort-shot-on-re.mp4</item>
+    </string-array>
+
+    <string-array name="default_play">
+        <item>http://html5demos.com/assets/dizzy.mp4</item>
+        <item>http://www.html5videoplayer.net/videos/toystory.mp4</item>
+        <item>http://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv</item>
+        <item>http://demos.webmproject.org/exoplayer/glass_vp9_vorbis.webm</item>
+        <item>http://demos.webmproject.org/dash/201410/vp9_glass/manifest_vp9_opus.mpd</item>
+        <item>https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8</item>
+        <item>https://tungsten.aaplimg.com/VOD/bipbop_adv_example_v2/master.m3u8</item>
+        <item>http://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism</item>
+    </string-array>
+
+    <string-array name="concatenate_play">
+        <item>http://html5demos.com/assets/dizzy.mp4</item>
+        <item>http://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv</item>
+        <item>https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4</item>
+    </string-array>
+</resources>
