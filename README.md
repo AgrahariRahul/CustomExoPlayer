@@ -8,7 +8,9 @@
 	
 	
 Adding this view in your layout and find this view in your activity.
-       <rahul.agrahari.customexoplayer.view.PlayerView
+
+
+    <rahul.agrahari.customexoplayer.view.PlayerView
         android:id="@+id/customPlayerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -18,7 +20,10 @@ Adding this view in your layout and find this view in your activity.
 		
 		
 Just make the request for playing media file in a different manner.
+
        For Default Play media files.
+	   
+	   
 		   player = new Player.Builder(MainActivity.this, "Enter the media file url", handler)
 					.setPlayerLoaderListener(playerView.getPlayerloaderlistener())
 					.setAppName("Enter the app name")
@@ -28,7 +33,10 @@ Just make the request for playing media file in a different manner.
 					
 					
 					
-#   Play Media files with any ads.
+Play Media files with any ads.
+
+
+
 			player = new Player.Builder(MainActivity.this, "Enter the media file url", handler)
 							.setPlayerLoaderListener(playerView.getPlayerloaderlistener())
 							.setAdsListener(playerView.getAdsloaderlistener())
@@ -40,8 +48,13 @@ Just make the request for playing media file in a different manner.
 							
 							
 							
-# Play Media files in looping.
+							
+							
+Play Media files in looping.
+
 		 for infinitely play just pass 0 in setMediaLoop(true,0).
+		 
+		 
 			player = new Player.Builder(MainActivity.this, "Enter the media file url", handler)
 					.setMediaLoop(true, "Enter the count") 
 					.setAppName("Enter the app name")
@@ -53,7 +66,9 @@ Just make the request for playing media file in a different manner.
 					
 					
 					
-# Play media files in sequentially 
+Play media files in sequentially 
+
+
 			player = new Player.Builder(MainActivity.this, "", handler)
 							.setConcatenateUrl("Enter the string array of media files")
 							.setPlayerLoaderListener(playerView.getPlayerloaderlistener())
@@ -64,10 +79,15 @@ Just make the request for playing media file in a different manner.
 							
 							
 
-# Start to play media files just call this method.
+Start to play media files just call this method.
+
+
     playerView.setPlayer(player);
 	
+	
 	pass true if you play media with ads otherwise pass false.
+	
+	
     player.prepareMedia(true);							
        
             		
