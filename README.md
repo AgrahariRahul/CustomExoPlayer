@@ -7,7 +7,7 @@
 	
 	
 	
-# Adding this view in your layout and find this view in your activity.
+#    Adding this view in your layout and find this view in your activity.
        <rahul.agrahari.customexoplayer.view.PlayerView
         android:id="@+id/customPlayerView"
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
 		
 		
 		
-# Just make the request for playing media file in a different manner.
+#    Just make the request for playing media file in a different manner.
        For Default Play media files.
 		   player = new Player.Builder(MainActivity.this, "Enter the media file url", handler)
 					.setPlayerLoaderListener(playerView.getPlayerloaderlistener())
@@ -28,7 +28,7 @@
 					
 					
 					
-# Play Media files with any ads.
+#   Play Media files with any ads.
 			player = new Player.Builder(MainActivity.this, "Enter the media file url", handler)
 							.setPlayerLoaderListener(playerView.getPlayerloaderlistener())
 							.setAdsListener(playerView.getAdsloaderlistener())
