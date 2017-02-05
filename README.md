@@ -88,7 +88,13 @@ Start to play media files just call this method.
 	pass true if you play media with ads otherwise pass false.
 	
 	
-    player.prepareMedia(true);							
+    player.prepareMedia(true);	
+
+
+	
+watch this demo link
+	
+https://drive.google.com/file/d/0B-1YK-pL7spWazdMRXNZVkNBVzQ/view?usp=sharing	
        
             		
 	   
